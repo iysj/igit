@@ -22,6 +22,8 @@ public class AnalyzerUtils {
 		private int startOffset; //开始偏移位
 		private int endOffset; //结束偏移位
 		
+		private int xx;
+		
 		public MyToken(String termText, int positionIncrement, String type,
 				int startOffset, int endOffset) {
 			super();
